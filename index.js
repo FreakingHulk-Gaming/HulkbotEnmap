@@ -8,7 +8,7 @@ client.login(process.env.token);
 // Initialize **or load** the server configurations
 const Enmap = require('enmap');
 const EnmapLevel = require('enmap-level');
-const settings = new Enmap({provider: new EnmapLevel({name: "settings"});});
+const settings = new Enmap({provider: new EnmapLevel({name: "settings"})});
 
 // Just setting up a default configuration object here, to have somethign to insert.
 const defaultSettings = {
