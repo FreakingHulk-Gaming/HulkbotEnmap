@@ -9,7 +9,7 @@ const discord = require('discord.js');
 const bot = new discord.Client();
 const prefix = "test "
 const config = require('./config.json')
-
+bot.login(process.env.token)
 //end
 
 bot.myTable = new Enmap({name: "myTable"});
