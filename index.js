@@ -2,7 +2,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on("ready", () => console.log("ready"));
-client.login("MTg-this-IzNzU3OTA5NjA-is.not-DCeFB-a.real-r4DQlO-t0ken-qerT0");
+client.login(process.env.token);
 // end discord.js init
 
 // Initialize **or load** the server configurations
