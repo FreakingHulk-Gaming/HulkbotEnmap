@@ -24,5 +24,7 @@ bot.on("message", message => {
     if (message.content == prefix + "enmap") {
       message.channel.send("Enmap is running.").then(m => m.delete(2500))
     }
+  } else {
+    message.channel.send("Read the playing status... Bot is owner only for now.")
   }
 })
