@@ -26,7 +26,7 @@ client.on("guildCreate", guild => {
 
 client.on("guildDelete", guild => {
   // Removing an element uses `delete(key)`
-  settings.delete(guild.id);
+  settings.delete(message.guild.id);
 });
 
 client.on("guildMemberAdd", member => {
