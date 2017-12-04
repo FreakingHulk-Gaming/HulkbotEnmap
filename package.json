@@ -1,7 +1,24 @@
 {
-  "name": "HulkbotEnmap",
-  "version": "1.0"
+  "name": "Hulkbot",
+  "version": "0.1.0",
+  "description": "Utility, music, etc",
+  "main": "bot.js",
+  "author": "FHGDev",
+  "license": "ISC",
   "scripts": {
     "start": "node index.js"
-  } 
+  },
+  "dependencies": {
+    "cleverbot-node": "^0.3.11",
+    "discord.js": "^11.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "ms": "^2.0.0",
+    "nodemon": "^1.12.1",
+    "profanities": "^2.5.0",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0",
+    "snekfetch": "^3.5.3",
+    "enmap": "^0.4.2",
+    "enmap-level": "^1.0.0"
+  }
 }
