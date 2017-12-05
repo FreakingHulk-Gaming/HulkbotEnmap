@@ -17,7 +17,7 @@ bot.myTable = new Enmap({name: "myTable"});
 bot.on("ready", () => {
   bot.user.setGame("Hulkbot test... Only responds to owner...")
   console.log("Bot is ready.")
-  bot.user.setUsername('Test')
+  bot.user.setUsername('Hulkb0t')
 });
 
 bot.on("message", message => {
