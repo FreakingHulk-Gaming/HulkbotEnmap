@@ -17,7 +17,7 @@ bot.myTable = new Enmap({name: "myTable"});
 bot.on("ready", () => {
   bot.user.setGame("Hulkbot test... Only responds to owner...")
   console.log("Bot is ready.")
-  bot.user.setAvatar('https://cdn.discordapp.com/attachments/362713327840919553/387372580669227019/lol.png')
+  bot.user.setUsername('Test')
 });
 
 bot.on("message", message => {
